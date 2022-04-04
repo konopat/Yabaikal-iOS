@@ -8,14 +8,27 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        Text("Hello, world!")
-            .padding()
-    }
-}
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+    @ObservedObject var postListingViewModel: PostListingViewModel
+    
+    var body: some View {
+        ScrollView(.vertical) {
+            VStack {
+                ForEach(postListingViewModel.posts) { post in
+                    VStack {
+                        Text(post.text)
+                    } 
+
+                }
+            }
+        }
+
     }
+
 }
+//
+//struct ContentView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        ContentView()
+//    }
+//}

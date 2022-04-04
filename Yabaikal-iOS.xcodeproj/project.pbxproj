@@ -7,18 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F8A546E27FAD2A600674EB6 /* PostListing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8A546D27FAD2A600674EB6 /* PostListing.swift */; };
+		6F8A547027FAD2D200674EB6 /* exampleImport.json in Resources */ = {isa = PBXBuildFile; fileRef = 6F8A546F27FAD2D200674EB6 /* exampleImport.json */; };
+		6F8A547227FAD68600674EB6 /* PostListingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8A547127FAD68600674EB6 /* PostListingViewModel.swift */; };
 		6FCB5F1D27F562870081A96F /* Yabaikal_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCB5F1C27F562870081A96F /* Yabaikal_iOSApp.swift */; };
 		6FCB5F1F27F562870081A96F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCB5F1E27F562870081A96F /* ContentView.swift */; };
 		6FCB5F2127F562880081A96F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FCB5F2027F562880081A96F /* Assets.xcassets */; };
 		6FCB5F2427F562880081A96F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FCB5F2327F562880081A96F /* Preview Assets.xcassets */; };
+		6FCB5F2B27F57E100081A96F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCB5F2A27F57E100081A96F /* User.swift */; };
+		6FCB5F3027F57ECC0081A96F /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCB5F2F27F57ECC0081A96F /* Post.swift */; };
+		6FCB5F3227F57EF70081A96F /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCB5F3127F57EF70081A96F /* Image.swift */; };
+		6FCB5F3527F57F490081A96F /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCB5F3427F57F490081A96F /* Category.swift */; };
+		6FCB5F4327F594E10081A96F /* importJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCB5F4227F594E10081A96F /* importJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6F3DBBD227F6C8EF000A0DDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		6F8A546D27FAD2A600674EB6 /* PostListing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListing.swift; sourceTree = "<group>"; };
+		6F8A546F27FAD2D200674EB6 /* exampleImport.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = exampleImport.json; sourceTree = "<group>"; };
+		6F8A547127FAD68600674EB6 /* PostListingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListingViewModel.swift; sourceTree = "<group>"; };
 		6FCB5F1927F562870081A96F /* Yabaikal-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yabaikal-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FCB5F1C27F562870081A96F /* Yabaikal_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yabaikal_iOSApp.swift; sourceTree = "<group>"; };
 		6FCB5F1E27F562870081A96F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6FCB5F2027F562880081A96F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6FCB5F2327F562880081A96F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6FCB5F2A27F57E100081A96F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		6FCB5F2F27F57ECC0081A96F /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		6FCB5F3127F57EF70081A96F /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		6FCB5F3427F57F490081A96F /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		6FCB5F4227F594E10081A96F /* importJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = importJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +49,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F3DBBCF27F6C0E3000A0DDE /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				6F8A547127FAD68600674EB6 /* PostListingViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		6FCB5F1027F562870081A96F = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +76,13 @@
 		6FCB5F1B27F562870081A96F /* Yabaikal-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				6F3DBBD227F6C8EF000A0DDE /* Info.plist */,
 				6FCB5F1C27F562870081A96F /* Yabaikal_iOSApp.swift */,
 				6FCB5F1E27F562870081A96F /* ContentView.swift */,
+				6FCB5F4227F594E10081A96F /* importJSON.swift */,
+				6F8A546F27FAD2D200674EB6 /* exampleImport.json */,
+				6F3DBBCF27F6C0E3000A0DDE /* ViewModels */,
+				6FCB5F2C27F57E640081A96F /* Models */,
 				6FCB5F2027F562880081A96F /* Assets.xcassets */,
 				6FCB5F2227F562880081A96F /* Preview Content */,
 			);
@@ -65,6 +95,18 @@
 				6FCB5F2327F562880081A96F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6FCB5F2C27F57E640081A96F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6F8A546D27FAD2A600674EB6 /* PostListing.swift */,
+				6FCB5F2F27F57ECC0081A96F /* Post.swift */,
+				6FCB5F2A27F57E100081A96F /* User.swift */,
+				6FCB5F3127F57EF70081A96F /* Image.swift */,
+				6FCB5F3427F57F490081A96F /* Category.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FCB5F2427F562880081A96F /* Preview Assets.xcassets in Resources */,
+				6F8A547027FAD2D200674EB6 /* exampleImport.json in Resources */,
 				6FCB5F2127F562880081A96F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +180,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F8A547227FAD68600674EB6 /* PostListingViewModel.swift in Sources */,
+				6FCB5F4327F594E10081A96F /* importJSON.swift in Sources */,
 				6FCB5F1F27F562870081A96F /* ContentView.swift in Sources */,
+				6FCB5F3227F57EF70081A96F /* Image.swift in Sources */,
 				6FCB5F1D27F562870081A96F /* Yabaikal_iOSApp.swift in Sources */,
+				6FCB5F2B27F57E100081A96F /* User.swift in Sources */,
+				6F8A546E27FAD2A600674EB6 /* PostListing.swift in Sources */,
+				6FCB5F3027F57ECC0081A96F /* Post.swift in Sources */,
+				6FCB5F3527F57F490081A96F /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +322,7 @@
 				DEVELOPMENT_TEAM = JZR2Y3TGGZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Yabaikal-iOS/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -301,6 +352,7 @@
 				DEVELOPMENT_TEAM = JZR2Y3TGGZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Yabaikal-iOS/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

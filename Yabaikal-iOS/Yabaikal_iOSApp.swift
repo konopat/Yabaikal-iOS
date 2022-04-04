@@ -9,9 +9,14 @@ import SwiftUI
 
 @main
 struct Yabaikal_iOSApp: App {
+    
+    let postListingViewModel = PostListingViewModel()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(
+                postListingViewModel: postListingViewModel
+            )
         }
     }
 }
