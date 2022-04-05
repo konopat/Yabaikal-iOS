@@ -9,15 +9,32 @@ import SwiftUI
 
 class PostListingViewModel: ObservableObject {
     
-    @Published var posts: [Post] = []
+    @Published var categories: [Category] = importCategories()
+    @Published var posts: [Post] = importPosts()
+    @Published var currentCategory: Category = importCategories()[0]
     
-    init() {
-        importPosts()
+    private static func importCategories() -> [Category] {
+        let categoryListing: CategoryListing = importJSON("exampleCategories.json")
+        return categoryListing.result
     }
     
-    private func importPosts() {
-        let postListing: PostListing = importJSON("exampleImport.json")
-        posts = postListing.result
+    private static func importPosts() -> [Post] {
+        let postListing: PostListing = importJSON("examplePosts.json")
+        return postListing.result
     }
     
+    func postFilter(by category: Category) {
+        if let choosenCategoryIndex = categories.firstIndex(where: ({$0.id == category.id})) {
+            let filteredPosts: [Post] = posts.filter({ $0.category == categories[choosenCategoryIndex] })
+            posts = filteredPosts
+        }
+    }
+    
+    func change(the category: Category) {
+        currentCategory = category
+    }
+    
+    var filteredPosts: [Post] {
+        return posts.filter({ $0.category == currentCategory })
+    }
 }

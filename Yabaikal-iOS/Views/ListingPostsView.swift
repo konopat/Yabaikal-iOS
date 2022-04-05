@@ -9,24 +9,53 @@ import SwiftUI
 
 struct ListingPostsView: View {
     
-    @ObservedObject var viewModel: PostListingViewModel
+    @ObservedObject var postListingViewModel: PostListingViewModel
+    @State var currentCategory: Category
     
     var body: some View {
         VStack {
-            ForEach(viewModel.posts) { post in
-                PostView(post: post)
-                
+            
+            // MARK: - CATEGORIES
+            ScrollView(.horizontal) {
+                HStack(spacing: 30) {
+                    ForEach(postListingViewModel.categories, id: \.self) { category in
+                        Button {
+                            change(the: category)
+                        } label: {
+                            if category == currentCategory {
+                                Text(category.title)
+                                    .foregroundColor(Color(K.Color.text))
+                                    
+                            } else {
+                                Text(category.title)
+                            }
+                        }
+                    }
+                }
+                .padding(.vertical)
             }
             .padding(.horizontal)
-            .background(.white)
             
+            // MARK: - FORM
+            FormAddNewPostView(text: "Предложить новость")
+                .padding(.horizontal)
+            
+            // MARK: - LISTING
+            LazyVStack {
+                ForEach(postListingViewModel.filteredPosts) { post in
+                    PostView(post: post)
+                }
+                .padding(.horizontal)
+                .background(.white)
+            }
+            .background(Color(K.Color.background))
+            .padding(.vertical)
         }
-        .background(Color(K.Color.background))
     }
-}
-
-struct ListingPostsView_Previews: PreviewProvider {
-    static var previews: some View {
-        ListingPostsView()
+    
+    // MARK: - FUNCTIONS
+    private func change(the category: Category) {
+        currentCategory = category
+        postListingViewModel.change(the: currentCategory)
     }
 }

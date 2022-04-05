@@ -12,7 +12,7 @@ struct User: Identifiable, Hashable, Codable {
     let email: String
     let name: String
     let family: String
-    let avatars: [Image]
+    let avatars: [Picture]
 }
 
 

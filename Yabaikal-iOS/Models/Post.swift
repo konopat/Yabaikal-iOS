@@ -13,5 +13,5 @@ struct Post: Identifiable, Hashable, Codable {
     let text: String
     let autor: User
     let category: Category
-    let images: [Image]
+    let images: [Picture]
 }

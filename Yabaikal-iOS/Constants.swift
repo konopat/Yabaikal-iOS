@@ -8,6 +8,9 @@
 import Foundation
 
 struct K {
+    struct Brand {
+        static let logoTitle = "ЯБайкал"
+    }
     struct Color {
         static let accent = "AccentColor"
         static let primary = "PrimaryColor"
@@ -18,5 +21,35 @@ struct K {
         static let logo = "Montserrat-Bold"
         static let title1 = "Montserrat-Bold"
         static let text = "Raleway-Regular"
+    }
+    struct Icons {
+        struct Home {
+            static let icon = "home"
+            static let title = "Главная"
+        }
+        struct Services {
+            static let icon = "apps"
+            static let title = "Сервисы"
+        }
+        struct Guide {
+            static let icon = "compass"
+            static let title = "Гид"
+        }
+        struct Volonter {
+            static let icon = "nature-people"
+            static let title = "ЯВолонтер"
+        }
+        struct Profile {
+            static let icon = "account-circle"
+            static let title = "Профиль"
+        }
+        struct Notice {
+            static let icon = "bell"
+            static let title = "Уведомления"
+        }
+        struct Search {
+            static let icon = "magnify"
+            static let title = "Поиск"
+        }
     }
 }
