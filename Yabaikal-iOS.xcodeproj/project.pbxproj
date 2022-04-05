@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F4AA8A727FBF27C00BBB7D5 /* ListingPostsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4AA8A627FBF27C00BBB7D5 /* ListingPostsView.swift */; };
+		6F4AA8AA27FBF2C000BBB7D5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4AA8A927FBF2C000BBB7D5 /* Constants.swift */; };
+		6F4AA8B227FBF2DF00BBB7D5 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F4AA8AC27FBF2DF00BBB7D5 /* Montserrat-Light.ttf */; };
+		6F4AA8B327FBF2DF00BBB7D5 /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F4AA8AD27FBF2DF00BBB7D5 /* Raleway-Regular.ttf */; };
+		6F4AA8B427FBF2DF00BBB7D5 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F4AA8AE27FBF2DF00BBB7D5 /* Montserrat-Bold.ttf */; };
+		6F4AA8B527FBF2DF00BBB7D5 /* Raleway-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F4AA8AF27FBF2DF00BBB7D5 /* Raleway-Light.ttf */; };
+		6F4AA8B627FBF2DF00BBB7D5 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F4AA8B027FBF2DF00BBB7D5 /* Montserrat-Regular.ttf */; };
+		6F4AA8B727FBF2DF00BBB7D5 /* Raleway-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F4AA8B127FBF2DF00BBB7D5 /* Raleway-Bold.ttf */; };
 		6F8A546E27FAD2A600674EB6 /* PostListing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8A546D27FAD2A600674EB6 /* PostListing.swift */; };
 		6F8A547027FAD2D200674EB6 /* exampleImport.json in Resources */ = {isa = PBXBuildFile; fileRef = 6F8A546F27FAD2D200674EB6 /* exampleImport.json */; };
 		6F8A547227FAD68600674EB6 /* PostListingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8A547127FAD68600674EB6 /* PostListingViewModel.swift */; };
@@ -23,6 +31,14 @@
 
 /* Begin PBXFileReference section */
 		6F3DBBD227F6C8EF000A0DDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		6F4AA8A627FBF27C00BBB7D5 /* ListingPostsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingPostsView.swift; sourceTree = "<group>"; };
+		6F4AA8A927FBF2C000BBB7D5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		6F4AA8AC27FBF2DF00BBB7D5 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		6F4AA8AD27FBF2DF00BBB7D5 /* Raleway-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Regular.ttf"; sourceTree = "<group>"; };
+		6F4AA8AE27FBF2DF00BBB7D5 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		6F4AA8AF27FBF2DF00BBB7D5 /* Raleway-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Light.ttf"; sourceTree = "<group>"; };
+		6F4AA8B027FBF2DF00BBB7D5 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		6F4AA8B127FBF2DF00BBB7D5 /* Raleway-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Bold.ttf"; sourceTree = "<group>"; };
 		6F8A546D27FAD2A600674EB6 /* PostListing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListing.swift; sourceTree = "<group>"; };
 		6F8A546F27FAD2D200674EB6 /* exampleImport.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = exampleImport.json; sourceTree = "<group>"; };
 		6F8A547127FAD68600674EB6 /* PostListingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListingViewModel.swift; sourceTree = "<group>"; };
@@ -57,6 +73,27 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
+		6F4AA8A827FBF28100BBB7D5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6F4AA8A627FBF27C00BBB7D5 /* ListingPostsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6F4AA8AB27FBF2DF00BBB7D5 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				6F4AA8AC27FBF2DF00BBB7D5 /* Montserrat-Light.ttf */,
+				6F4AA8AD27FBF2DF00BBB7D5 /* Raleway-Regular.ttf */,
+				6F4AA8AE27FBF2DF00BBB7D5 /* Montserrat-Bold.ttf */,
+				6F4AA8AF27FBF2DF00BBB7D5 /* Raleway-Light.ttf */,
+				6F4AA8B027FBF2DF00BBB7D5 /* Montserrat-Regular.ttf */,
+				6F4AA8B127FBF2DF00BBB7D5 /* Raleway-Bold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		6FCB5F1027F562870081A96F = {
 			isa = PBXGroup;
 			children = (
@@ -79,11 +116,14 @@
 				6F3DBBD227F6C8EF000A0DDE /* Info.plist */,
 				6FCB5F1C27F562870081A96F /* Yabaikal_iOSApp.swift */,
 				6FCB5F1E27F562870081A96F /* ContentView.swift */,
+				6F4AA8A927FBF2C000BBB7D5 /* Constants.swift */,
+				6F4AA8A827FBF28100BBB7D5 /* Views */,
 				6FCB5F4227F594E10081A96F /* importJSON.swift */,
 				6F8A546F27FAD2D200674EB6 /* exampleImport.json */,
 				6F3DBBCF27F6C0E3000A0DDE /* ViewModels */,
 				6FCB5F2C27F57E640081A96F /* Models */,
 				6FCB5F2027F562880081A96F /* Assets.xcassets */,
+				6F4AA8AB27FBF2DF00BBB7D5 /* Fonts */,
 				6FCB5F2227F562880081A96F /* Preview Content */,
 			);
 			path = "Yabaikal-iOS";
@@ -167,6 +207,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F4AA8B627FBF2DF00BBB7D5 /* Montserrat-Regular.ttf in Resources */,
+				6F4AA8B727FBF2DF00BBB7D5 /* Raleway-Bold.ttf in Resources */,
+				6F4AA8B227FBF2DF00BBB7D5 /* Montserrat-Light.ttf in Resources */,
+				6F4AA8B327FBF2DF00BBB7D5 /* Raleway-Regular.ttf in Resources */,
+				6F4AA8B427FBF2DF00BBB7D5 /* Montserrat-Bold.ttf in Resources */,
+				6F4AA8B527FBF2DF00BBB7D5 /* Raleway-Light.ttf in Resources */,
 				6FCB5F2427F562880081A96F /* Preview Assets.xcassets in Resources */,
 				6F8A547027FAD2D200674EB6 /* exampleImport.json in Resources */,
 				6FCB5F2127F562880081A96F /* Assets.xcassets in Resources */,
@@ -181,8 +227,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F8A547227FAD68600674EB6 /* PostListingViewModel.swift in Sources */,
+				6F4AA8AA27FBF2C000BBB7D5 /* Constants.swift in Sources */,
 				6FCB5F4327F594E10081A96F /* importJSON.swift in Sources */,
 				6FCB5F1F27F562870081A96F /* ContentView.swift in Sources */,
+				6F4AA8A727FBF27C00BBB7D5 /* ListingPostsView.swift in Sources */,
 				6FCB5F3227F57EF70081A96F /* Image.swift in Sources */,
 				6FCB5F1D27F562870081A96F /* Yabaikal_iOSApp.swift in Sources */,
 				6FCB5F2B27F57E100081A96F /* User.swift in Sources */,

@@ -11,7 +11,6 @@ struct Image: Identifiable, Hashable, Codable {
     let id: UUID
     let src: String
     let title: String
-    let autor: User
 }
 
 
