@@ -15,3 +15,7 @@ struct Post: Identifiable, Hashable, Codable {
     let category: Category
     let images: [Picture]
 }
+
+struct PostListing: Decodable {
+    let result : [Post]
+}

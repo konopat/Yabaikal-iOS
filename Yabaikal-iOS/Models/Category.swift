@@ -11,3 +11,7 @@ struct Category: Identifiable, Hashable, Codable {
     let id: UUID
     let title: String
 }
+
+struct CategoryListing: Decodable {
+    let result : [Category]
+}
