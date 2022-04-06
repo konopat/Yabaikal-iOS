@@ -37,4 +37,10 @@ class PostListingViewModel: ObservableObject {
     var filteredPosts: [Post] {
         return posts.filter({ $0.category == currentCategory })
     }
+    
+    func addLike(for post: Post, by user: User) {
+        if let choosenIndex = posts.firstIndex(where: ({$0.id == post.id})) {
+            posts[choosenIndex].addLike(by: user)
+        }
+    }
 }

@@ -15,5 +15,9 @@ struct User: Identifiable, Hashable, Codable {
     let avatars: [Picture]
 }
 
+struct UserListing: Decodable {
+    let result : [User]
+}
+
 
 

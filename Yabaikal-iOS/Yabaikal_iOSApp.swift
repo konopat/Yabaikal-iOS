@@ -11,11 +11,13 @@ import SwiftUI
 struct Yabaikal_iOSApp: App {
     
     let postListingViewModel = PostListingViewModel()
+    let authorizedUsersViewModel = AuthorizedUsersViewModel()
     
     var body: some Scene {
         WindowGroup {
             ContentView(
-                postListingViewModel: postListingViewModel
+                postListingViewModel: postListingViewModel,
+                authorizedUsersViewModel: authorizedUsersViewModel
             )
         }
     }

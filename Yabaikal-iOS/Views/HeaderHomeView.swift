@@ -8,15 +8,35 @@
 import SwiftUI
 
 struct HeaderHomeView: View {
+    
+    @ObservedObject var authorizedUsersViewModel: AuthorizedUsersViewModel
+    @State private var showingCurrentUserSheet = false
+    
     var body: some View {
         HStack {
             // Left icons
             HStack {
+//                NavigationLink {
+//                    CurrentUserView(userListingViewModel: authorizedUsersViewModel)
+//                } label: {
+//                    Image(K.Icons.Profile.icon)
+//                        .foregroundColor(Color(K.Color.text))
+//                }
+                
                 Button {
-                    //
+                    goCurrentUserView()
                 } label: {
-                    Image(K.Icons.Profile.icon)
-                        .foregroundColor(Color(K.Color.text))
+                    if let currentUser = authorizedUsersViewModel.currentUser {
+                        if let avatarSrcr = currentUser.avatars[0].src {
+                            AvatarCircleView(url: avatarSrcr, width: 35, height: 35)
+                        }
+                    } else {
+                        Image(K.Icons.Profile.icon)
+                            .foregroundColor(Color(K.Color.text))
+                    }
+                }
+                .sheet(isPresented: $showingCurrentUserSheet) {
+                    CurrentUserView(userListingViewModel: authorizedUsersViewModel)
                 }
 
             }
@@ -42,5 +62,15 @@ struct HeaderHomeView: View {
                 }
             }
         }
+    }
+    
+    // MARK: - Functions
+    
+    func goCurrentUserView() {
+        showingCurrentUserSheet.toggle()
+//        if let window = UIApplication.shared.windows.first {
+//            window.rootViewController = UIHostingController(rootView: CurrentUserView(userListingViewModel: authorizedUsersViewModel))
+//            window.makeKeyAndVisible()
+//        }
     }
 }

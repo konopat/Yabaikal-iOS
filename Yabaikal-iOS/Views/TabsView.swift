@@ -10,6 +10,7 @@ import SwiftUI
 struct TabsView: View {
     
     @ObservedObject var postListingViewModel: PostListingViewModel
+    @ObservedObject var authorizedUsersViewModel: AuthorizedUsersViewModel
     
     var body: some View {
         TabView {
@@ -18,13 +19,14 @@ struct TabsView: View {
                         VStack {
                             VStack {
                                 // Header
-                                HeaderHomeView()
+                                HeaderHomeView(authorizedUsersViewModel: authorizedUsersViewModel)
                             }
                             .padding(.horizontal)
                             
                             // Listing
                             ListingPostsView(
                                 postListingViewModel: postListingViewModel,
+                                userListingViewModel: authorizedUsersViewModel,
                                 currentCategory: postListingViewModel.categories[0]
                             )
                             

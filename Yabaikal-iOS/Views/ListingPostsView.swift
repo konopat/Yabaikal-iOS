@@ -10,6 +10,7 @@ import SwiftUI
 struct ListingPostsView: View {
     
     @ObservedObject var postListingViewModel: PostListingViewModel
+    @ObservedObject var userListingViewModel: AuthorizedUsersViewModel
     @State var currentCategory: Category
     
     var body: some View {
@@ -43,7 +44,7 @@ struct ListingPostsView: View {
             // MARK: - LISTING
             LazyVStack {
                 ForEach(postListingViewModel.filteredPosts) { post in
-                    PostView(post: post)
+                    PostView(userListingViewModel: userListingViewModel, postListingViewModel: postListingViewModel, post: post)
                 }
                 .padding(.horizontal)
                 .background(.white)

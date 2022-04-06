@@ -10,25 +10,12 @@ import SwiftUI
 struct ContentView: View {
 
     @ObservedObject var postListingViewModel: PostListingViewModel
+    @ObservedObject var authorizedUsersViewModel: AuthorizedUsersViewModel
     
     var body: some View {
-        ScrollView(.vertical) {
-            VStack {
-                ForEach(postListingViewModel.posts) { post in
-                    VStack {
-                        Text(post.text)
-                    } 
-
-                }
-            }
-        }
-
+        TabsView(
+            postListingViewModel: postListingViewModel,
+            authorizedUsersViewModel: authorizedUsersViewModel
+        )
     }
-
 }
-//
-//struct ContentView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        ContentView()
-//    }
-//}
