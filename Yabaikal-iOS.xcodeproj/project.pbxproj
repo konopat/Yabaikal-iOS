@@ -29,6 +29,9 @@
 		6F4AA8BE27FBFF5000BBB7D5 /* HeaderHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4AA8BD27FBFF5000BBB7D5 /* HeaderHomeView.swift */; };
 		6F8A547027FAD2D200674EB6 /* examplePosts.json in Resources */ = {isa = PBXBuildFile; fileRef = 6F8A546F27FAD2D200674EB6 /* examplePosts.json */; };
 		6F8A547227FAD68600674EB6 /* PostListingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8A547127FAD68600674EB6 /* PostListingViewModel.swift */; };
+		6F8A95CA280563D600D2759A /* Registration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8A95C9280563D600D2759A /* Registration.swift */; };
+		6F8A95CC2805647300D2759A /* PostRegistrationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8A95CB2805647300D2759A /* PostRegistrationsView.swift */; };
+		6F8A95CE28056E7E00D2759A /* RegistrationRespondedUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8A95CD28056E7E00D2759A /* RegistrationRespondedUsers.swift */; };
 		6FCB5F1D27F562870081A96F /* Yabaikal_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCB5F1C27F562870081A96F /* Yabaikal_iOSApp.swift */; };
 		6FCB5F1F27F562870081A96F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCB5F1E27F562870081A96F /* ContentView.swift */; };
 		6FCB5F2127F562880081A96F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FCB5F2027F562880081A96F /* Assets.xcassets */; };
@@ -64,6 +67,9 @@
 		6F4AA8BD27FBFF5000BBB7D5 /* HeaderHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderHomeView.swift; sourceTree = "<group>"; };
 		6F8A546F27FAD2D200674EB6 /* examplePosts.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = examplePosts.json; sourceTree = "<group>"; };
 		6F8A547127FAD68600674EB6 /* PostListingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListingViewModel.swift; sourceTree = "<group>"; };
+		6F8A95C9280563D600D2759A /* Registration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Registration.swift; sourceTree = "<group>"; };
+		6F8A95CB2805647300D2759A /* PostRegistrationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostRegistrationsView.swift; sourceTree = "<group>"; };
+		6F8A95CD28056E7E00D2759A /* RegistrationRespondedUsers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationRespondedUsers.swift; sourceTree = "<group>"; };
 		6FCB5F1927F562870081A96F /* Yabaikal-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yabaikal-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FCB5F1C27F562870081A96F /* Yabaikal_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yabaikal_iOSApp.swift; sourceTree = "<group>"; };
 		6FCB5F1E27F562870081A96F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -92,6 +98,8 @@
 			children = (
 				6F29669D27FD926A00F83980 /* PostAutorAvatarView.swift */,
 				6F29669F27FD92C800F83980 /* PostImagesView.swift */,
+				6F8A95CB2805647300D2759A /* PostRegistrationsView.swift */,
+				6F8A95CD28056E7E00D2759A /* RegistrationRespondedUsers.swift */,
 				6F29669A27FD91F400F83980 /* PostLikersView.swift */,
 			);
 			path = PostMetaViews;
@@ -190,6 +198,7 @@
 			isa = PBXGroup;
 			children = (
 				6FCB5F2F27F57ECC0081A96F /* Post.swift */,
+				6F8A95C9280563D600D2759A /* Registration.swift */,
 				6FCB5F2A27F57E100081A96F /* User.swift */,
 				6FCB5F3127F57EF70081A96F /* Picture.swift */,
 				6FCB5F3427F57F490081A96F /* Category.swift */,
@@ -290,9 +299,12 @@
 				6F29669127FD615E00F83980 /* AuthorizedUsersViewModel.swift in Sources */,
 				6FCB5F3027F57ECC0081A96F /* Post.swift in Sources */,
 				6F4AA8BA27FBF46500BBB7D5 /* PostView.swift in Sources */,
+				6F8A95CC2805647300D2759A /* PostRegistrationsView.swift in Sources */,
 				6F29669E27FD926A00F83980 /* PostAutorAvatarView.swift in Sources */,
+				6F8A95CE28056E7E00D2759A /* RegistrationRespondedUsers.swift in Sources */,
 				6FCB5F3527F57F490081A96F /* Category.swift in Sources */,
 				6F4AA8BE27FBFF5000BBB7D5 /* HeaderHomeView.swift in Sources */,
+				6F8A95CA280563D600D2759A /* Registration.swift in Sources */,
 				6F29669B27FD91F400F83980 /* PostLikersView.swift in Sources */,
 				6F29669327FD635500F83980 /* CurrentUserView.swift in Sources */,
 				6F08AB8B27FC04E200199A6A /* FormAddNewPostView.swift in Sources */,

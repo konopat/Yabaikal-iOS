@@ -3,7 +3,7 @@
         {
             "id": "1a055822-b0c2-11ec-b909-0242ac120002",
             "timestamp": 1643238858,
-            "text": "Все, кто свободен в эти выходные, Байкал просит о помощи! Невозможно пройти вдоль берега – все в бутылках и мусоре! Регистрируйтесь! Выезжаем с парковки у стадиона Труд в пятницу в 09:00",
+            "text": "Все, кто свободен в эти выходные, Байкал просит о помощи! Невозможно пройти вдоль берега – все в бутылках и мусоре! Регистрируйтесь ниже! Выезжаем с парковки у стадиона Труд в пятницу в 09:00",
             "autor": {
                 "id": "e5ecba9a-b0c0-11ec-b909-0242ac120002",
                 "email": "user1@predein.com",
@@ -26,6 +26,147 @@
                     "id": "4c12a832-b3e8-11ec-b909-0242ac120002",
                     "src": "https://avatars.mds.yandex.net/get-zen_doc/3418917/pub_5f1da61dcf90c6677aa000fd_5f1eba5f90d2f3540f5ef1c8/scale_1200",
                     "title": "Мусор на Байкале"
+                }
+            ],
+            "registrations": [
+                {
+                    "id": "0a0de216-ba33-11ec-8422-0242ac120002",
+                    "type": "volonter",
+                    "needNumber": 30,
+                    "readyNumber": 17,
+                    "respondedUsers": [
+                        {
+                            "id": "80c553ec-b4b8-11ec-b909-0242ac120002",
+                            "email": "roman@predein.com",
+                            "name": "Роман",
+                            "family": "Предеин",
+                            "avatars": [
+                                {
+                                    "id": "89b4dd4c-b4b8-11ec-b909-0242ac120002",
+                                    "src": "https://sun9-43.userapi.com/impf/c626817/v626817926/1e95e/bhEHwJ8_z5Y.jpg?size=596x604&quality=96&sign=15410cfdfac007bb0f4fee6ae143ffa0&c_uniq_tag=wH6dD_-9ONOsIDnS07XwMOMGGy5HCFoxSeAA2BLiG2Q&type=album",
+                                    "title": "Роман Предеин - аватарка"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "e5ecba9a-b0c0-11ec-b909-0242ac120002",
+                            "email": "user1@predein.com",
+                            "name": "Иван",
+                            "family": "Рудых",
+                            "avatars": [
+                                {
+                                    "id": "0ea7dfc8-b0c6-11ec-b909-0242ac120002",
+                                    "src": "http://yabaikal.ru/wp-content/uploads/2022/03/o.47034-150x150.jpg",
+                                    "title": "Иван Рудых - аватарка"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "5866e27a-b4af-11ec-b909-0242ac120002",
+                            "email": "user2@predein.com",
+                            "name": "Руслан",
+                            "family": "Болотов",
+                            "avatars": [
+                                {
+                                    "id": "be934eee-b4af-11ec-b909-0242ac120002",
+                                    "src": "https://angarsk38.ru/wp-content/uploads/2021/06/e6626cce55580ea263991b153191efde.jpg",
+                                    "title": "Руслан Болотов - аватарка"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "51746aa8-ba33-11ec-8422-0242ac120002",
+                    "type": "transport",
+                    "needNumber": 7,
+                    "readyNumber": 4,
+                    "respondedUsers": []
+                }
+            ]
+        },
+        {
+            "id": "1a055822-b0c2-11ec-b909-0242ac120002",
+            "timestamp": 1643238858,
+            "text": "Все, кто свободен в эти выходные, Байкал просит о помощи! Невозможно пройти вдоль берега – все в бутылках и мусоре! Регистрируйтесь ниже! Выезжаем с парковки у стадиона Труд в пятницу в 09:00",
+            "autor": {
+                "id": "e5ecba9a-b0c0-11ec-b909-0242ac120002",
+                "email": "user1@predein.com",
+                "name": "Иван",
+                "family": "Рудых",
+                "avatars": [
+                    {
+                        "id": "0ea7dfc8-b0c6-11ec-b909-0242ac120002",
+                        "src": "http://yabaikal.ru/wp-content/uploads/2022/03/o.47034-150x150.jpg",
+                        "title": "Иван Рудых - аватарка"
+                    }
+                ]
+            },
+            "category": {
+                "id": "90593a8e-b4a0-11ec-b909-0242ac120002",
+                "title": "Волонтеры"
+            },
+            "images": [
+                {
+                    "id": "4c12a832-b3e8-11ec-b909-0242ac120002",
+                    "src": "https://avatars.mds.yandex.net/get-zen_doc/3418917/pub_5f1da61dcf90c6677aa000fd_5f1eba5f90d2f3540f5ef1c8/scale_1200",
+                    "title": "Мусор на Байкале"
+                }
+            ],
+            "registrations": [
+                {
+                    "id": "0a0de216-ba33-11ec-8422-0242ac120002",
+                    "type": "volonter",
+                    "needNumber": 30,
+                    "readyNumber": 17,
+                    "respondedUsers": [
+                        {
+                            "id": "80c553ec-b4b8-11ec-b909-0242ac120002",
+                            "email": "roman@predein.com",
+                            "name": "Роман",
+                            "family": "Предеин",
+                            "avatars": [
+                                {
+                                    "id": "89b4dd4c-b4b8-11ec-b909-0242ac120002",
+                                    "src": "https://sun9-43.userapi.com/impf/c626817/v626817926/1e95e/bhEHwJ8_z5Y.jpg?size=596x604&quality=96&sign=15410cfdfac007bb0f4fee6ae143ffa0&c_uniq_tag=wH6dD_-9ONOsIDnS07XwMOMGGy5HCFoxSeAA2BLiG2Q&type=album",
+                                    "title": "Роман Предеин - аватарка"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "e5ecba9a-b0c0-11ec-b909-0242ac120002",
+                            "email": "user1@predein.com",
+                            "name": "Иван",
+                            "family": "Рудых",
+                            "avatars": [
+                                {
+                                    "id": "0ea7dfc8-b0c6-11ec-b909-0242ac120002",
+                                    "src": "http://yabaikal.ru/wp-content/uploads/2022/03/o.47034-150x150.jpg",
+                                    "title": "Иван Рудых - аватарка"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "5866e27a-b4af-11ec-b909-0242ac120002",
+                            "email": "user2@predein.com",
+                            "name": "Руслан",
+                            "family": "Болотов",
+                            "avatars": [
+                                {
+                                    "id": "be934eee-b4af-11ec-b909-0242ac120002",
+                                    "src": "https://angarsk38.ru/wp-content/uploads/2021/06/e6626cce55580ea263991b153191efde.jpg",
+                                    "title": "Руслан Болотов - аватарка"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "51746aa8-ba33-11ec-8422-0242ac120002",
+                    "type": "transport",
+                    "needNumber": 7,
+                    "readyNumber": 4,
+                    "respondedUsers": []
                 }
             ]
         },

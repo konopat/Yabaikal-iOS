@@ -14,7 +14,9 @@ struct Post: Identifiable, Hashable, Codable {
     let autor: User
     let category: Category
     let images: [Picture]
+    var registrations: [Registration]?
     var likers: [User]?
+    
     
     mutating func addLike(by user: User) {
         if likers == nil {

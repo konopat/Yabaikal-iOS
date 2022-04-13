@@ -21,6 +21,7 @@ struct PostView: View {
                 PostAutorAvatarView(post: post)
                 Text(post.text)
                 PostImagesView(post: post)
+                PostRegistrationsView(userListingViewModel: userListingViewModel, post: post)
                 HStack {
                     PostLikersView(userListingViewModel: userListingViewModel, postListingViewModel: postListingViewModel, post: post)
                     Spacer()
