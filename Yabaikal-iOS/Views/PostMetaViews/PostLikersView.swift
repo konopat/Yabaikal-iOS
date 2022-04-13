@@ -34,29 +34,29 @@ struct PostLikersView: View {
                             
                             if postLikers.count == 1 {
                                 if let firstLikerAvatarSrc = postLikers[0].avatars[0].src {
-                                    AvatarCircleView(url: firstLikerAvatarSrc, width: 20, height: 20)
+                                    AvatarCircleFixSizeView(url: firstLikerAvatarSrc, width: 20, height: 20)
                                 }
                             } else if postLikers.count == 2 {
                                 ZStack {
                                     if let firstLikerAvatarSrc = postLikers[0].avatars[0].src {
-                                        AvatarCircleView(url: firstLikerAvatarSrc, width: 20, height: 20)
+                                        AvatarCircleFixSizeView(url: firstLikerAvatarSrc, width: 20, height: 20)
                                     }
                                     if let secondLikerAvatarSrc = postLikers[1].avatars[0].src {
-                                        AvatarCircleView(url: secondLikerAvatarSrc, width: 20, height: 20)
+                                        AvatarCircleFixSizeView(url: secondLikerAvatarSrc, width: 20, height: 20)
                                             .padding(.trailing, 25)
                                     }
                                 }
                             } else if postLikers.count > 2 {
                                 ZStack {
                                     if let firstLikerAvatarSrc = postLikers[0].avatars[0].src {
-                                        AvatarCircleView(url: firstLikerAvatarSrc, width: 20, height: 20)
+                                        AvatarCircleFixSizeView(url: firstLikerAvatarSrc, width: 20, height: 20)
                                     }
                                     if let secondLikerAvatarSrc = postLikers[1].avatars[0].src {
-                                        AvatarCircleView(url: secondLikerAvatarSrc, width: 20, height: 20)
+                                        AvatarCircleFixSizeView(url: secondLikerAvatarSrc, width: 20, height: 20)
                                             .padding(.trailing, 25)
                                     }
                                     if let thirdLikerAvatarSrc = postLikers[2].avatars[0].src {
-                                        AvatarCircleView(url: thirdLikerAvatarSrc, width: 20, height: 20)
+                                        AvatarCircleFixSizeView(url: thirdLikerAvatarSrc, width: 20, height: 20)
                                             .padding(.trailing, 45)
                                     }
                                 }

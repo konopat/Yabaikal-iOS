@@ -21,7 +21,7 @@ struct CurrentUserView: View {
                 if let currentUser = userListingViewModel.currentUser {
                     if let currentUserAvatarSrc = currentUser.avatars[0].src {
                         VStack {
-                            AvatarCircleView(url: currentUserAvatarSrc, width: 150, height: 150)
+                            AvatarCircleFixSizeView(url: currentUserAvatarSrc, width: 150, height: 150)
                             Text("\(currentUser.name) \(currentUser.family)")
                                 .font(.title2)
                             Text(currentUser.email)
@@ -45,7 +45,7 @@ struct CurrentUserView: View {
                                         Button {
                                             setCurrentUser(like: user)
                                         } label: {
-                                            AvatarCircleView(
+                                            AvatarCircleFixSizeView(
                                                 url: avatarSrc,
                                                 width: geometry.size.width / 4,
                                                 height: geometry.size.width / 4

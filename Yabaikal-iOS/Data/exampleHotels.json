@@ -1,0 +1,50 @@
+{
+    "result": [
+        {
+            "id": "d9d38cc8-bafe-11ec-8422-0242ac120002",
+            "title": "Анастасия"
+            "shortDescription": "Легендарный отель на берегу Байкала с баней на борту парусного корабля.",
+            "lоcation": "Листвянка",
+            "images": [
+                {
+                    "id": "27811d34-bafd-11ec-8422-0242ac120002",
+                    "src": "https://hotelawards.ru/img/upload/e696367f5e3cb0052280d855080b7877.jpg",
+                    "title": "Анастасия – вид из окна"
+                },
+                {
+                    "id": "36083b26-bafd-11ec-8422-0242ac120002",
+                    "src": "https://baikalnova.ru/wp-content/uploads/2020/02/n4-4.jpg",
+                    "title": "Анастасия – номер"
+                },
+                {
+                    "id": "63346778-bafd-11ec-8422-0242ac120002",
+                    "src": "https://baikalnova.ru/wp-content/uploads/2020/02/n10-16.jpg",
+                    "title": "Анастасия – номер"
+                },
+                {
+                    "id": "896183b8-bafd-11ec-8422-0242ac120002",
+                    "src": "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_650,q_auto,w_1000/itemimages/38/55/385511_v3.jpeg",
+                    "title": "Анастасия – бассеин"
+                }
+            ]
+        },
+        {
+            "id": "dec93da4-bafe-11ec-8422-0242ac120002",
+            "title": "Маяк",
+            "shortDescription": "Самый известный отель на берегу Байкала.",
+            "lоcation": "Листвянка",
+            "images": [
+                {
+                    "id": "b5600f8c-baff-11ec-8422-0242ac120002",
+                    "src": "https://www.multitour.ru/files/imgs/5e2ad974b0b985e72748ccdf4cc5c5edb6c3c1f8.jpeg",
+                    "title": "Отель Маяк ночью"
+                },
+                {
+                    "id": "b9da4028-baff-11ec-8422-0242ac120002",
+                    "src": "https://tsbaikal.ru/assets/galleries/367/222916072.jpg",
+                    "title": "На балконе отеля Маяк"
+                }
+            ]
+        }
+    ]
+}

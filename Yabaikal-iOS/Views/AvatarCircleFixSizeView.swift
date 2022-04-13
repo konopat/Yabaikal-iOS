@@ -1,14 +1,17 @@
 //
-//  AvatarCircleView.swift
+//  AvatarCircleFixSizeView.swift
 //  Yabaikal-iOS
 //
-//  Created by Роман Предеин on 13.04.2022.
+//  Created by Роман Предеин on 06.04.2022.
 //
 
 import SwiftUI
 
-struct AvatarCircleView: View {
+struct AvatarCircleFixSizeView: View {
+    
     let url: String
+    let width: CGFloat
+    let height: CGFloat
     
     var body: some View {
         if let urlString = URL(string: url) {
@@ -30,6 +33,7 @@ struct AvatarCircleView: View {
                         .foregroundColor(.red)
                 }
             }
+            .frame(width: width, height: height)
         }
     }
 }

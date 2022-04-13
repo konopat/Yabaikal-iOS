@@ -5,7 +5,7 @@
 //  Created by Роман Предеин on 05.04.2022.
 //
 
-import Foundation
+import SwiftUI
 
 struct K {
     struct Brand {
@@ -21,6 +21,10 @@ struct K {
         static let logo = "Montserrat-Bold"
         static let title1 = "Montserrat-Bold"
         static let text = "Raleway-Regular"
+    }
+    struct Grid {
+        static let columns = [GridItem(), GridItem(), GridItem()]
+        static let spacing: CGFloat = 10
     }
     struct Icons {
         struct Home {
@@ -50,6 +54,10 @@ struct K {
         struct Search {
             static let icon = "magnify"
             static let title = "Поиск"
+        }
+        struct Share {
+            static let icon = "share-outline"
+            static let title = "Поделиться"
         }
     }
 }

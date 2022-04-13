@@ -13,9 +13,10 @@ struct Post: Identifiable, Hashable, Codable {
     let text: String
     let autor: User
     let category: Category
-    let images: [Picture]
+    let images: [Picture]?
     var registrations: [Registration]?
     var likers: [User]?
+    let hotel: Hotel?
     
     
     mutating func addLike(by user: User) {
@@ -23,7 +24,21 @@ struct Post: Identifiable, Hashable, Codable {
             likers = []
             likers!.append(user)
         } else {
-            likers!.append(user)
+            if likers!.contains(user) {
+                if let choosenIndex = likers!.firstIndex(where: ({$0.id == user.id})) {
+                    likers!.remove(at: choosenIndex)
+                }
+            } else {
+                likers!.append(user)
+            }
+        }
+    }
+    
+    mutating func addResponded(user: User, to registration: Registration ) {
+        if let postRegistrations = registrations {
+            if let registrationIndex = postRegistrations.firstIndex(where: ({$0.id == registration.id})) {
+                registrations![registrationIndex].addRespondedUser(by: user)
+            }
         }
     }
 }

@@ -27,6 +27,32 @@
             ]
         },
         {
+            "id": "b95fc458-bafd-11ec-8422-0242ac120002",
+            "email": "user4@predein.com",
+            "name": "Кира",
+            "family": "Сумбурная",
+            "avatars": [
+                {
+                    "id": "c6d2531c-bafd-11ec-8422-0242ac120002",
+                    "src": "https://i.pinimg.com/736x/8e/bf/ae/8ebfae461e2b561e2f6127285c873c01.jpg",
+                    "title": "Кира Сумбурная - аватарка"
+                }
+            ]
+        },
+        {
+            "id": "95bf0f00-bb01-11ec-8422-0242ac120002",
+            "email": "user4@predein.com",
+            "name": "Отель",
+            "family": "Анастасия",
+            "avatars": [
+                {
+                    "id": "a1863c78-bb01-11ec-8422-0242ac120002",
+                    "src": "https://imgcy.trivago.com/c_lfill,d_dummy.jpeg,f_auto,h_225,q_auto,w_225/itemimages/38/55/385511_v3.jpeg",
+                    "title": "Отель Анастасия - аватарка"
+                }
+            ]
+        },
+        {
             "id": "5866e27a-b4af-11ec-b909-0242ac120002",
             "email": "user2@predein.com",
             "name": "Руслан",

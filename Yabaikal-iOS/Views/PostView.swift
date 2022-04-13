@@ -21,10 +21,28 @@ struct PostView: View {
                 PostAutorAvatarView(post: post)
                 Text(post.text)
                 PostImagesView(post: post)
-                PostRegistrationsView(userListingViewModel: userListingViewModel, post: post)
+                if post.registrations != nil {
+                    ZStack {
+                        Color(K.Color.background)
+                        VStack(spacing: 0) {
+                            VStack(spacing: 10) {
+                                Text("Готовы помочь?")
+                                    .font(.title)
+                                Text("Выберите чем вы сможете помочь и нажмите на кнопку «Я помогу с этим». Если ваша помощь понадобится, организаторы свяжутся с вами через контакты, которые указаны в вашем профиле.")
+                                    .font(.caption)
+                                    .multilineTextAlignment(.center)
+                            }
+                            .padding(30)
+                            PostRegistrationsView(userListingViewModel: userListingViewModel, postListingViewModel: postListingViewModel, post: post)
+                                .padding(.bottom, 30)
+                        }
+                    }
+                }
                 HStack {
                     PostLikersView(userListingViewModel: userListingViewModel, postListingViewModel: postListingViewModel, post: post)
                     Spacer()
+                    Image(systemName: "arrowshape.turn.up.right")
+                        .foregroundColor(Color(K.Color.text))
                 }
             }
             .padding(.vertical)

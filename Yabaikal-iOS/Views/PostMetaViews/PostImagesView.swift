@@ -10,10 +10,10 @@ import SwiftUI
 struct PostImagesView: View {
     let post: Post
     var body: some View {
-        if !post.images.isEmpty {
+        if let postImages = post.images {
                 ScrollView(.horizontal) {
                     HStack {
-                        ForEach(post.images) { image in
+                        ForEach(postImages) { image in
                         if let urlString = URL(string: image.src) {
                             AsyncImage(url: urlString, transaction: .init(animation: .spring(response: 1.6))) { phase in
                                 switch phase {

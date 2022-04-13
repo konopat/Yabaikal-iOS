@@ -14,7 +14,7 @@ struct PostAutorAvatarView: View {
     var body: some View {
         HStack {
             if !post.autor.avatars.isEmpty {
-                AvatarCircleView(
+                AvatarCircleFixSizeView(
                     url: post.autor.avatars[0].src,
                     width: 50,
                     height: 50

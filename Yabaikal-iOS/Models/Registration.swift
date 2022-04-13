@@ -8,9 +8,24 @@
 import Foundation
 
 struct Registration: Identifiable, Hashable, Codable {
+    
     let id: UUID
-    let type: String
-    let needNumber: Int
-    let readyNumber: Int
-    let respondedUsers: [User]?
+    let typeOfHelp: String
+    var respondedUsers: [User]?
+    
+    mutating func addRespondedUser(by user: User) {
+        if respondedUsers == nil {
+            respondedUsers = []
+            respondedUsers!.append(user)
+        } else {
+            if !respondedUsers!.contains(user) {
+                respondedUsers!.append(user)
+            } else {
+                if let choosenIndex = respondedUsers!.firstIndex(where: ({$0.id == user.id})) {
+                    respondedUsers!.remove(at: choosenIndex)
+                }
+            }
+        }
+        
+    }
 }

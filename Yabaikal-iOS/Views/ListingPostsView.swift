@@ -38,7 +38,7 @@ struct ListingPostsView: View {
             .padding(.horizontal)
             
             // MARK: - FORM
-            FormAddNewPostView(text: "Предложить новость")
+            FormAddNewPostView(text: newPostButtonTitle())
                 .padding(.horizontal)
             
             // MARK: - LISTING
@@ -58,5 +58,22 @@ struct ListingPostsView: View {
     private func change(the category: Category) {
         currentCategory = category
         postListingViewModel.change(the: currentCategory)
+    }
+    
+    private func newPostButtonTitle() -> String {
+        switch currentCategory.title {
+        case "Новости": return "Предложить новость"
+        case "Жилье": return "Предложить жилье"
+        case "Транспорт": return "Предложить транспорт"
+        case "Еда": return "Предложить еду"
+        case "Туры": return "Предложить тур"
+        case "Гиды": return "Предложить свои услуги"
+        case "Переводчики": return "Предложить свои услуги"
+        case "Волонтеры": return "Призвать на помощь"
+        case "Мероприятия": return "Предложить мероприятие"
+        case "Сувениры": return "Предложить сувениры"
+        case "Работа": return "Предложить работу"
+        default: return "Предложить новость"
+        }
     }
 }

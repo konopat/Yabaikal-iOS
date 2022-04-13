@@ -28,7 +28,7 @@ struct HeaderHomeView: View {
                 } label: {
                     if let currentUser = authorizedUsersViewModel.currentUser {
                         if let avatarSrcr = currentUser.avatars[0].src {
-                            AvatarCircleView(url: avatarSrcr, width: 35, height: 35)
+                            AvatarCircleFixSizeView(url: avatarSrcr, width: 35, height: 35)
                         }
                     } else {
                         Image(K.Icons.Profile.icon)
