@@ -12,6 +12,7 @@ struct Hotel: Identifiable, Hashable, Codable {
     let title: String
     let shortDescription: String
     let lоcation: String
+    var rating: Int
     let images: [Picture]
 }
 

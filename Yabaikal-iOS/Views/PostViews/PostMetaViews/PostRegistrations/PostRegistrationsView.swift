@@ -18,10 +18,10 @@ struct PostRegistrationsView: View {
                 ForEach(postRegistrations) { registration in
                     
                     VStack(spacing: 20) {
+                        Text(registration.typeOfHelp)
+                            .font(.title3)
+                            .multilineTextAlignment(.center)
                         if let respondedUSers = registration.respondedUsers {
-                            Text(registration.typeOfHelp)
-                                .font(.title3)
-                                .multilineTextAlignment(.center)
                             NavigationLink {
                                 RespondedUsersView(userListingViewModel: userListingViewModel, registration: registration)
                             } label: {
@@ -30,8 +30,6 @@ struct PostRegistrationsView: View {
                                     RegistrationRespondedUsers(userListingViewModel: userListingViewModel, registration: registration)
                                 }                                
                             }
-
-                            
                         }
                         
                         Button {
@@ -43,6 +41,8 @@ struct PostRegistrationsView: View {
                                 } else {
                                     Text("Я помогу с этим")
                                 }
+                            } else {
+                                Text("Я буду первым!")
                             }
                         }
                     }

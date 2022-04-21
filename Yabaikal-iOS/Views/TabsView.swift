@@ -19,7 +19,7 @@ struct TabsView: View {
                         VStack {
                             VStack {
                                 // Header
-                                HeaderHomeView(authorizedUsersViewModel: authorizedUsersViewModel)
+                                HeaderHomeView(authorizedUsersViewModel: authorizedUsersViewModel, postListingViewModel: postListingViewModel)
                             }
                             .padding(.horizontal)
                             
@@ -45,17 +45,17 @@ struct TabsView: View {
                 TabLabel(title: K.Icons.Home.title, icon: K.Icons.Home.icon)
             }
             
-            Text("Сервисы")
+            ServicesTabView(postListingViewModel: postListingViewModel)
                 .tabItem {
                     TabLabel(title: K.Icons.Services.title, icon: K.Icons.Services.icon)
                 }
             
-            Text("Гид")
+            GuidView(userListingViewModel: authorizedUsersViewModel, postListingViewModel: postListingViewModel)
                 .tabItem {
                     TabLabel(title: K.Icons.Guide.title, icon: K.Icons.Guide.icon)
                 }
             
-            Text("ЯВолонтер")
+            ListingUsersRegistrationsView(userListingViewModel: authorizedUsersViewModel)
                 .tabItem {
                     TabLabel(title: K.Icons.Volonter.title, icon: K.Icons.Volonter.icon)
                 }

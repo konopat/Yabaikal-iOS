@@ -17,6 +17,7 @@ struct Post: Identifiable, Hashable, Codable {
     var registrations: [Registration]?
     var likers: [User]?
     let hotel: Hotel?
+    let roomsForRent: [RoomForRent]?
     
     
     mutating func addLike(by user: User) {

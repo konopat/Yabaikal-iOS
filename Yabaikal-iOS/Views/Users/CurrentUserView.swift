@@ -32,7 +32,7 @@ struct CurrentUserView: View {
                     }
                 }
                 
-                VStack(alignment: .center) {
+                VStack {
                     
                     if !userListingViewModel.users.isEmpty {
                         ScrollView(.horizontal, showsIndicators: false) {
@@ -55,7 +55,6 @@ struct CurrentUserView: View {
                                     }
                                 }
                             }
-                            .frame(width: geometry.size.width)
                         }
                     }
                 }

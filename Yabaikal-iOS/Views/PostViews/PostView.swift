@@ -19,7 +19,11 @@ struct PostView: View {
             Color.white
             VStack(spacing: 20) {
                 PostAutorAvatarView(post: post)
-                Text(post.text)
+                HStack {
+                    Text(post.text)
+                        .multilineTextAlignment(.leading)
+                    Spacer()
+                }
                 PostImagesView(post: post)
                 if post.registrations != nil {
                     ZStack {
@@ -38,6 +42,15 @@ struct PostView: View {
                         }
                     }
                 }
+                
+                if post.roomsForRent != nil {
+                    RoomPreviewCardView(post: post)
+                }
+                
+                if post.hotel != nil {
+                    HotelPreviewCardView(post: post)
+                }
+                
                 HStack {
                     PostLikersView(userListingViewModel: userListingViewModel, postListingViewModel: postListingViewModel, post: post)
                     Spacer()

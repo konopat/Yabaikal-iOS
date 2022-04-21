@@ -10,6 +10,7 @@ import Foundation
 struct Category: Identifiable, Hashable, Codable {
     let id: UUID
     let title: String
+    let icon: String
 }
 
 struct CategoryListing: Decodable {

@@ -1,17 +1,14 @@
 //
-//  AvatarCircleFixSizeView.swift
+//  AvatarCircleView.swift
 //  Yabaikal-iOS
 //
-//  Created by Роман Предеин on 06.04.2022.
+//  Created by Роман Предеин on 13.04.2022.
 //
 
 import SwiftUI
 
-struct AvatarCircleFixSizeView: View {
-    
+struct AvatarCircleView: View {
     let url: String
-    let width: CGFloat
-    let height: CGFloat
     
     var body: some View {
         if let urlString = URL(string: url) {
@@ -26,14 +23,17 @@ struct AvatarCircleFixSizeView: View {
                         .aspectRatio(contentMode: .fill)
                         .clipShape(Circle())
                 case .failure:
-                    Text("Не удалось загрузить картинку.")
-                        .foregroundColor(.red)
+                    Image(K.Default.avatar)
+                        .resizable()
+                        .aspectRatio(contentMode: .fill)
+                        .clipShape(Circle())
                 @unknown default:
-                    Text("Ошибка.")
-                        .foregroundColor(.red)
+                    Image(K.Default.avatar)
+                        .resizable()
+                        .aspectRatio(contentMode: .fill)
+                        .clipShape(Circle())
                 }
             }
-            .frame(width: width, height: height)
         }
     }
 }

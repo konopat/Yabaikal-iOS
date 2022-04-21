@@ -10,6 +10,7 @@ import SwiftUI
 struct HeaderHomeView: View {
     
     @ObservedObject var authorizedUsersViewModel: AuthorizedUsersViewModel
+    @ObservedObject var postListingViewModel: PostListingViewModel
     @State private var showingCurrentUserSheet = false
     
     var body: some View {
@@ -43,11 +44,19 @@ struct HeaderHomeView: View {
             Spacer()
             // LogoTitle
             HStack(spacing: 0) {
-                Text("Я")
-                    .foregroundColor(Color(K.Color.primary))
-                    .bold()
-                Text("Байкал")
-                    .foregroundColor(Color(K.Color.accent))
+                
+                Group {
+//                    Text("Я")
+//                        .foregroundColor(Color(K.Color.primary))
+//                        .bold()
+                    Text("Байкал ")
+                        .foregroundColor(Color(K.Color.primary))
+                        .bold()
+                    Text(postListingViewModel.currentCategory.title)
+                        .foregroundColor(Color(K.Color.accent))
+                        .bold()
+                }
+                
             }
             .font(.title2)
 //            .font(Font.custom(K.Font.logo, size: 28))

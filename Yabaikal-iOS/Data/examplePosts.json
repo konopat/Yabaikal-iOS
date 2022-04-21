@@ -19,7 +19,8 @@
             },
             "category": {
                 "id": "e9b3188b-83c9-482a-82e5-ba942636b29c",
-                "title": "Новости"
+                "title": "Новости",
+                "icon": "newspaper"
             },
             "images": [
                 {
@@ -94,7 +95,8 @@
             },
             "category": {
                 "id": "90593a8e-b4a0-11ec-b909-0242ac120002",
-                "title": "Волонтеры"
+                "title": "Волонтеры",
+                "icon": "nature-people"
             },
             "images": [
                 {
@@ -180,7 +182,8 @@
             },
             "category": {
                 "id": "e9b3188b-83c9-482a-82e5-ba942636b29c",
-                "title": "Новости"
+                "title": "Новости",
+                "icon": "newspaper"
             },
             "images": [
                 {
@@ -214,7 +217,8 @@
             },
             "category": {
                 "id": "90593a8e-b4a0-11ec-b909-0242ac120002",
-                "title": "Волонтеры"
+                "title": "Волонтеры",
+                "icon": "nature-people"
             },
             "images": [
                 {
@@ -295,14 +299,15 @@
             },
             "category": {
                 "id": "e9b3188b-83c9-482a-82e5-ba942636b29c",
-                "title": "Новости"
+                "title": "Новости",
+                "icon": "newspaper"
             },
             "images": []
         },
         {
             "id": "7b04108e-bafc-11ec-8422-0242ac120002",
             "timestamp": 1643238858,
-            "text": "Открыли бронирование на летний сезон.",
+            "text": "Открыли бронирование на летний сезон. Бронируйте номера в карточке отеля.",
             "autor": {
                 "id": "95bf0f00-bb01-11ec-8422-0242ac120002",
                 "email": "user4@predein.com",
@@ -318,13 +323,15 @@
             },
             "category": {
                 "id": "73e30236-b4a0-11ec-b909-0242ac120002",
-                "title": "Жилье"
+                "title": "Жилье",
+                "icon": "bed.double"
             },
             "hotel": {
                 "id": "d9d38cc8-bafe-11ec-8422-0242ac120002",
                 "title": "Анастасия",
                 "shortDescription": "Легендарный отель на берегу Байкала с баней на борту парусного корабля.",
                 "lоcation": "Листвянка",
+                "rating": 4,
                 "images": [
                     {
                         "id": "27811d34-bafd-11ec-8422-0242ac120002",
@@ -349,5 +356,158 @@
                 ]
             }
         },
+        {
+            "id": "407f0a32-bbaa-11ec-8422-0242ac120002",
+            "timestamp": 1643238858,
+            "text": "Сдаю квартиру в Байкальске посуточно. Теплая вода, большая ванная, Интернет, парковка. Звоните +7100500",
+            "autor": {
+                "id": "e5ecba9a-b0c0-11ec-b909-0242ac120002",
+                "email": "user1@predein.com",
+                "name": "Иван",
+                "family": "Рудых",
+                "avatars": [
+                    {
+                        "id": "0ea7dfc8-b0c6-11ec-b909-0242ac120002",
+                        "src": "http://yabaikal.ru/wp-content/uploads/2022/03/o.47034-150x150.jpg",
+                        "title": "Иван Рудых - аватарка"
+                    }
+                ]
+            },
+            "category": {
+                "id": "73e30236-b4a0-11ec-b909-0242ac120002",
+                "title": "Жилье",
+                "icon": "bed.double"
+            },
+            "roomsForRent": [
+                {
+                    "id": "6faa0b36-bbaa-11ec-8422-0242ac120002",
+                    "type": "Двухкомнатная квартира",
+                    "roomsNumber": 2,
+                    "address": "г. Байкальск, ул. Ленина, д.25",
+                    "price": 2500,
+                    "rentPeriod": "Посуточно",
+                    "images": [
+                        {
+                            "id": "b91f6804-bbb1-11ec-8422-0242ac120002",
+                            "src": "https://i.vsn.ru/system/photos/entity/423/375/476/medium/img.jpg?1644491890",
+                        },
+                        {
+                            "id": "bd4f004c-bbb1-11ec-8422-0242ac120002",
+                            "src": "https://cache3.youla.io/files/images/orig/5e/ad/5eadbbd7bedcc5757f12cf12.jpg",
+                        },
+                        {
+                            "id": "c0f27f80-bbb1-11ec-8422-0242ac120002",
+                            "src": "https://f2.mirkvartir.me/custom/7d/7ddc1974-e4ee-48ea-9c83-b5195d30969e.jpg",
+                        },
+                        {
+                            "id": "c4c4c4d8-bbb1-11ec-8422-0242ac120002",
+                            "src": "https://app.winwin-tech.ru/ag_upload/rcrealtyru/28941092/32755.jpg",
+                        },
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "70cee872-bba7-11ec-8422-0242ac120002",
+            "timestamp": 1643238858,
+            "text": "Каждый год в этот день мы встречаемся здесь. Здесь он сделал мне предложение, здесь началась наша история. Судьба неразрывно связана с этим местом. Начните и вы свою историю! Номер люкс для новобрачных по промокоду: СУМБУРНАЯ",
+            "autor": {
+                "id": "b95fc458-bafd-11ec-8422-0242ac120002",
+                "email": "user4@predein.com",
+                "name": "Кира",
+                "family": "Сумбурная",
+                "avatars": [
+                    {
+                        "id": "c6d2531c-bafd-11ec-8422-0242ac120002",
+                        "src": "https://i.pinimg.com/736x/8e/bf/ae/8ebfae461e2b561e2f6127285c873c01.jpg",
+                        "title": "Кира Сумбурная - аватарка"
+                    }
+                ]
+            },
+            "category": {
+                "id": "73e30236-b4a0-11ec-b909-0242ac120002",
+                "title": "Жилье",
+                "icon": "bed.double"
+            },
+            "hotel": {
+                "id": "dec93da4-bafe-11ec-8422-0242ac120002",
+                "title": "Маяк",
+                "shortDescription": "Самый известный отель на берегу Байкала.",
+                "lоcation": "Листвянка",
+                "rating": 4,
+                "images": [
+                    {
+                        "id": "b5600f8c-baff-11ec-8422-0242ac120002",
+                        "src": "https://www.multitour.ru/files/imgs/5e2ad974b0b985e72748ccdf4cc5c5edb6c3c1f8.jpeg",
+                        "title": "Отель Маяк ночью"
+                    },
+                    {
+                        "id": "b9da4028-baff-11ec-8422-0242ac120002",
+                        "src": "https://tsbaikal.ru/assets/galleries/367/222916072.jpg",
+                        "title": "На балконе отеля Маяк"
+                    }
+                ]
+            },
+            "roomsForRent": [
+                {
+                    "id": "a8320cb2-bbb2-11ec-8422-0242ac120002",
+                    "type": "Двухместный стандарт",
+                    "roomsNumber": 1,
+                    "price": 4340,
+                    "rentPeriod": "Посуточно",
+                    "images": [
+                        {
+                            "id": "f93753e2-bbb2-11ec-8422-0242ac120002",
+                            "src": "https://www.mayakhotel.ru/upload/iblock/9de/9de9cbdda7932a2a64ba58b99fd1d538.jpg",
+                        },
+                        {
+                            "id": "f524e080-bbb2-11ec-8422-0242ac120002",
+                            "src": "https://www.mayakhotel.ru/upload/iblock/851/8514c9e001500c6bc181b6bcfbe84ff1.jpg",
+                        },
+                        {
+                            "id": "f1627da4-bbb2-11ec-8422-0242ac120002",
+                            "src": "https://www.mayakhotel.ru/upload/iblock/f06/f06a13e60c4699d45b95d5cc40c2f7c2.jpg",
+                        },
+                        {
+                            "id": "ebf2b5aa-bbb2-11ec-8422-0242ac120002",
+                            "src": "https://www.mayakhotel.ru/upload/iblock/61e/61ebf62e563ad7ea100c676dd3af752a.jpg",
+                        },
+                        {
+                            "id": "e778758c-bbb2-11ec-8422-0242ac120002",
+                            "src": "https://www.mayakhotel.ru/upload/iblock/63d/63d167f60e1fa3cd62decf0df098c72a.jpg",
+                        },
+                    ]
+                },
+                {
+                    "id": "8239c984-bbb5-11ec-8422-0242ac120002",
+                    "type": "Люкс 1 этаж",
+                    "roomsNumber": 1,
+                    "price": 10600,
+                    "rentPeriod": "Посуточно",
+                    "images": [
+                        {
+                            "id": "e81f9630-bbb4-11ec-8422-0242ac120002",
+                            "src": "https://www.mayakhotel.ru/upload/iblock/989/9895619f48d6884f6665ce75f52739e4.jpg",
+                        },
+                        {
+                            "id": "ec951a8c-bbb4-11ec-8422-0242ac120002",
+                            "src": "https://www.mayakhotel.ru/upload/iblock/6a9/6a9ed8c9a448e1b273f92d19b6acd210.jpg",
+                        },
+                        {
+                            "id": "f0a93608-bbb4-11ec-8422-0242ac120002",
+                            "src": "https://www.mayakhotel.ru/upload/iblock/bd1/bd13bd25fd64adb674d1d2c72dad0e32.jpg",
+                        },
+                        {
+                            "id": "f4bdf71a-bbb4-11ec-8422-0242ac120002",
+                            "src": "https://www.mayakhotel.ru/upload/iblock/363/363d26581be489c3fb6781356eeb12b4.jpg",
+                        },
+                        {
+                            "id": "f879584a-bbb4-11ec-8422-0242ac120002",
+                            "src": "https://www.mayakhotel.ru/upload/iblock/db4/db49cd413dcd9219c10ee2d759ae99a9.jpg",
+                        },
+                    ]
+                },
+            ]
+        }
     ]
 }

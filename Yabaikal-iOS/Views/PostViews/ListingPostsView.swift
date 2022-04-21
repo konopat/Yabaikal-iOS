@@ -17,7 +17,7 @@ struct ListingPostsView: View {
         VStack {
             
             // MARK: - CATEGORIES
-            ScrollView(.horizontal) {
+            ScrollView(.horizontal, showsIndicators: false) {
                 HStack(spacing: 30) {
                     ForEach(postListingViewModel.categories, id: \.self) { category in
                         Button {
@@ -37,6 +37,7 @@ struct ListingPostsView: View {
             }
             .padding(.horizontal)
             
+            
             // MARK: - FORM
             FormAddNewPostView(text: newPostButtonTitle())
                 .padding(.horizontal)
@@ -50,7 +51,7 @@ struct ListingPostsView: View {
                 .background(.white)
             }
             .background(Color(K.Color.background))
-            .padding(.vertical)
+//            .padding(.vertical)
         }
     }
     

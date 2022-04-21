@@ -26,6 +26,19 @@ struct K {
         static let columns = [GridItem(), GridItem(), GridItem()]
         static let spacing: CGFloat = 10
     }
+    struct Default {
+        static let avatar = "default"
+        static let errorImage = "errorImage"
+        
+        struct Location {
+            static let categories = [
+                [
+                    "title": "Места",
+                    "icon": "Места",
+                ]
+            ]
+        }
+    }
     struct Icons {
         struct Home {
             static let icon = "home"

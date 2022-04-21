@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		6F08AB8B27FC04E200199A6A /* FormAddNewPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F08AB8A27FC04E200199A6A /* FormAddNewPostView.swift */; };
-		6F08AB8F27FC061D00199A6A /* exampleCategories.json in Resources */ = {isa = PBXBuildFile; fileRef = 6F08AB8E27FC061D00199A6A /* exampleCategories.json */; };
 		6F29668F27FD604600F83980 /* exampleUsers.json in Resources */ = {isa = PBXBuildFile; fileRef = 6F29668E27FD604600F83980 /* exampleUsers.json */; };
 		6F29669127FD615E00F83980 /* AuthorizedUsersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F29669027FD615E00F83980 /* AuthorizedUsersViewModel.swift */; };
 		6F29669327FD635500F83980 /* CurrentUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F29669227FD635500F83980 /* CurrentUserView.swift */; };
@@ -16,6 +15,8 @@
 		6F29669B27FD91F400F83980 /* PostLikersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F29669A27FD91F400F83980 /* PostLikersView.swift */; };
 		6F29669E27FD926A00F83980 /* PostAutorAvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F29669D27FD926A00F83980 /* PostAutorAvatarView.swift */; };
 		6F2966A027FD92C900F83980 /* PostImagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F29669F27FD92C800F83980 /* PostImagesView.swift */; };
+		6F2FBA71281115050000106A /* AssyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2FBA70281115050000106A /* AssyncImageView.swift */; };
+		6F2FBA73281117260000106A /* LocalImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2FBA72281117260000106A /* LocalImageView.swift */; };
 		6F4AA8A727FBF27C00BBB7D5 /* ListingPostsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4AA8A627FBF27C00BBB7D5 /* ListingPostsView.swift */; };
 		6F4AA8AA27FBF2C000BBB7D5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4AA8A927FBF2C000BBB7D5 /* Constants.swift */; };
 		6F4AA8B227FBF2DF00BBB7D5 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F4AA8AC27FBF2DF00BBB7D5 /* Montserrat-Light.ttf */; };
@@ -38,6 +39,14 @@
 		6F8A95CA280563D600D2759A /* Registration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8A95C9280563D600D2759A /* Registration.swift */; };
 		6F8A95CC2805647300D2759A /* PostRegistrationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8A95CB2805647300D2759A /* PostRegistrationsView.swift */; };
 		6F8A95CE28056E7E00D2759A /* RegistrationRespondedUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8A95CD28056E7E00D2759A /* RegistrationRespondedUsers.swift */; };
+		6FC2E2F72807CAB50051FE5F /* HotelPreviewCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC2E2F62807CAB50051FE5F /* HotelPreviewCardView.swift */; };
+		6FC2E2F92807CE490051FE5F /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC2E2F82807CE490051FE5F /* RatingView.swift */; };
+		6FC2E2FB2807D2850051FE5F /* Extenssions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC2E2FA2807D2850051FE5F /* Extenssions.swift */; };
+		6FC2E3012807D7900051FE5F /* RoomForRent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC2E3002807D7900051FE5F /* RoomForRent.swift */; };
+		6FC2E3032807DFA00051FE5F /* RoomPreviewCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC2E3022807DFA00051FE5F /* RoomPreviewCardView.swift */; };
+		6FC2E3052807F0020051FE5F /* ServicesTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC2E3042807F0020051FE5F /* ServicesTabView.swift */; };
+		6FC2E30B2807F45A0051FE5F /* exampleCategories.json in Resources */ = {isa = PBXBuildFile; fileRef = 6FC2E30A2807F45A0051FE5F /* exampleCategories.json */; };
+		6FC2E30D280805820051FE5F /* ListingUsersRegistrationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC2E30C280805820051FE5F /* ListingUsersRegistrationsView.swift */; };
 		6FCB5F1D27F562870081A96F /* Yabaikal_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCB5F1C27F562870081A96F /* Yabaikal_iOSApp.swift */; };
 		6FCB5F1F27F562870081A96F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCB5F1E27F562870081A96F /* ContentView.swift */; };
 		6FCB5F2127F562880081A96F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FCB5F2027F562880081A96F /* Assets.xcassets */; };
@@ -47,11 +56,11 @@
 		6FCB5F3227F57EF70081A96F /* Picture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCB5F3127F57EF70081A96F /* Picture.swift */; };
 		6FCB5F3527F57F490081A96F /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCB5F3427F57F490081A96F /* Category.swift */; };
 		6FCB5F4327F594E10081A96F /* importJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCB5F4227F594E10081A96F /* importJSON.swift */; };
+		6FF7186F28110DFB008E45CB /* GuidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF7186E28110DFB008E45CB /* GuidView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6F08AB8A27FC04E200199A6A /* FormAddNewPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormAddNewPostView.swift; sourceTree = "<group>"; };
-		6F08AB8E27FC061D00199A6A /* exampleCategories.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = exampleCategories.json; sourceTree = "<group>"; };
 		6F29668E27FD604600F83980 /* exampleUsers.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = exampleUsers.json; sourceTree = "<group>"; };
 		6F29669027FD615E00F83980 /* AuthorizedUsersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizedUsersViewModel.swift; sourceTree = "<group>"; };
 		6F29669227FD635500F83980 /* CurrentUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUserView.swift; sourceTree = "<group>"; };
@@ -59,6 +68,8 @@
 		6F29669A27FD91F400F83980 /* PostLikersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostLikersView.swift; sourceTree = "<group>"; };
 		6F29669D27FD926A00F83980 /* PostAutorAvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostAutorAvatarView.swift; sourceTree = "<group>"; };
 		6F29669F27FD92C800F83980 /* PostImagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostImagesView.swift; sourceTree = "<group>"; };
+		6F2FBA70281115050000106A /* AssyncImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssyncImageView.swift; sourceTree = "<group>"; };
+		6F2FBA72281117260000106A /* LocalImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalImageView.swift; sourceTree = "<group>"; };
 		6F3DBBD227F6C8EF000A0DDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		6F4AA8A627FBF27C00BBB7D5 /* ListingPostsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingPostsView.swift; sourceTree = "<group>"; };
 		6F4AA8A927FBF2C000BBB7D5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -82,6 +93,14 @@
 		6F8A95C9280563D600D2759A /* Registration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Registration.swift; sourceTree = "<group>"; };
 		6F8A95CB2805647300D2759A /* PostRegistrationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostRegistrationsView.swift; sourceTree = "<group>"; };
 		6F8A95CD28056E7E00D2759A /* RegistrationRespondedUsers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationRespondedUsers.swift; sourceTree = "<group>"; };
+		6FC2E2F62807CAB50051FE5F /* HotelPreviewCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelPreviewCardView.swift; sourceTree = "<group>"; };
+		6FC2E2F82807CE490051FE5F /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		6FC2E2FA2807D2850051FE5F /* Extenssions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extenssions.swift; sourceTree = "<group>"; };
+		6FC2E3002807D7900051FE5F /* RoomForRent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomForRent.swift; sourceTree = "<group>"; };
+		6FC2E3022807DFA00051FE5F /* RoomPreviewCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomPreviewCardView.swift; sourceTree = "<group>"; };
+		6FC2E3042807F0020051FE5F /* ServicesTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesTabView.swift; sourceTree = "<group>"; };
+		6FC2E30A2807F45A0051FE5F /* exampleCategories.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = exampleCategories.json; sourceTree = "<group>"; };
+		6FC2E30C280805820051FE5F /* ListingUsersRegistrationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingUsersRegistrationsView.swift; sourceTree = "<group>"; };
 		6FCB5F1927F562870081A96F /* Yabaikal-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yabaikal-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FCB5F1C27F562870081A96F /* Yabaikal_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yabaikal_iOSApp.swift; sourceTree = "<group>"; };
 		6FCB5F1E27F562870081A96F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -92,6 +111,7 @@
 		6FCB5F3127F57EF70081A96F /* Picture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picture.swift; sourceTree = "<group>"; };
 		6FCB5F3427F57F490081A96F /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		6FCB5F4227F594E10081A96F /* importJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = importJSON.swift; sourceTree = "<group>"; };
+		6FF7186E28110DFB008E45CB /* GuidView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,15 +150,12 @@
 			children = (
 				6F4AA8BB27FBF5A300BBB7D5 /* TabsView.swift */,
 				6F4AA8BD27FBFF5000BBB7D5 /* HeaderHomeView.swift */,
-				6F4AA8A627FBF27C00BBB7D5 /* ListingPostsView.swift */,
-				6F08AB8A27FC04E200199A6A /* FormAddNewPostView.swift */,
-				6F4AA8B927FBF46500BBB7D5 /* PostView.swift */,
-				6F29669C27FD922000F83980 /* PostMetaViews */,
-				6F29669427FD63FB00F83980 /* AvatarCircleFixSizeView.swift */,
-				6F74003A280685D50095D5C4 /* AvatarCircleView.swift */,
-				6F29669227FD635500F83980 /* CurrentUserView.swift */,
-				6F74003C2806881A0095D5C4 /* SelectedUserView.swift */,
-				6F740038280683430095D5C4 /* CustomViewsExtenssions */,
+				6FC2E3042807F0020051FE5F /* ServicesTabView.swift */,
+				6FF7186E28110DFB008E45CB /* GuidView.swift */,
+				6FC2E2FF2807D6070051FE5F /* PostViews */,
+				6FC2E2FC2807D5B10051FE5F /* Booking */,
+				6FC2E2FE2807D5EF0051FE5F /* Users */,
+				6F740038280683430095D5C4 /* ViewExtenssions */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -160,19 +177,22 @@
 			isa = PBXGroup;
 			children = (
 				6F8A546F27FAD2D200674EB6 /* examplePosts.json */,
-				6F08AB8E27FC061D00199A6A /* exampleCategories.json */,
 				6F29668E27FD604600F83980 /* exampleUsers.json */,
 				6F74003E2806B8E50095D5C4 /* exampleHotels.json */,
+				6FC2E30A2807F45A0051FE5F /* exampleCategories.json */,
 			);
 			path = Data;
 			sourceTree = "<group>";
 		};
-		6F740038280683430095D5C4 /* CustomViewsExtenssions */ = {
+		6F740038280683430095D5C4 /* ViewExtenssions */ = {
 			isa = PBXGroup;
 			children = (
+				6FC2E2FA2807D2850051FE5F /* Extenssions.swift */,
+				6FC2E2FD2807D5D90051FE5F /* Images */,
+				6FC2E2F82807CE490051FE5F /* RatingView.swift */,
 				6F7400362806832B0095D5C4 /* ReorderableForEach.swift */,
 			);
-			path = CustomViewsExtenssions;
+			path = ViewExtenssions;
 			sourceTree = "<group>";
 		};
 		6F740039280683500095D5C4 /* PostRegistrations */ = {
@@ -183,6 +203,47 @@
 				6F740034280682B70095D5C4 /* RespondedUsersView.swift */,
 			);
 			path = PostRegistrations;
+			sourceTree = "<group>";
+		};
+		6FC2E2FC2807D5B10051FE5F /* Booking */ = {
+			isa = PBXGroup;
+			children = (
+				6FC2E2F62807CAB50051FE5F /* HotelPreviewCardView.swift */,
+				6FC2E3022807DFA00051FE5F /* RoomPreviewCardView.swift */,
+			);
+			path = Booking;
+			sourceTree = "<group>";
+		};
+		6FC2E2FD2807D5D90051FE5F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				6F29669427FD63FB00F83980 /* AvatarCircleFixSizeView.swift */,
+				6F74003A280685D50095D5C4 /* AvatarCircleView.swift */,
+				6F2FBA70281115050000106A /* AssyncImageView.swift */,
+				6F2FBA72281117260000106A /* LocalImageView.swift */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		6FC2E2FE2807D5EF0051FE5F /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				6F29669227FD635500F83980 /* CurrentUserView.swift */,
+				6F74003C2806881A0095D5C4 /* SelectedUserView.swift */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+		6FC2E2FF2807D6070051FE5F /* PostViews */ = {
+			isa = PBXGroup;
+			children = (
+				6F4AA8A627FBF27C00BBB7D5 /* ListingPostsView.swift */,
+				6FC2E30C280805820051FE5F /* ListingUsersRegistrationsView.swift */,
+				6F08AB8A27FC04E200199A6A /* FormAddNewPostView.swift */,
+				6F4AA8B927FBF46500BBB7D5 /* PostView.swift */,
+				6F29669C27FD922000F83980 /* PostMetaViews */,
+			);
+			path = PostViews;
 			sourceTree = "<group>";
 		};
 		6FCB5F1027F562870081A96F = {
@@ -236,6 +297,7 @@
 				6FCB5F3127F57EF70081A96F /* Picture.swift */,
 				6FCB5F3427F57F490081A96F /* Category.swift */,
 				6F7400402806BB510095D5C4 /* Hotel.swift */,
+				6FC2E3002807D7900051FE5F /* RoomForRent.swift */,
 				6FCB5F4227F594E10081A96F /* importJSON.swift */,
 			);
 			path = Models;
@@ -301,13 +363,13 @@
 			files = (
 				6F4AA8B627FBF2DF00BBB7D5 /* Montserrat-Regular.ttf in Resources */,
 				6F4AA8B727FBF2DF00BBB7D5 /* Raleway-Bold.ttf in Resources */,
-				6F08AB8F27FC061D00199A6A /* exampleCategories.json in Resources */,
 				6F4AA8B227FBF2DF00BBB7D5 /* Montserrat-Light.ttf in Resources */,
 				6F4AA8B327FBF2DF00BBB7D5 /* Raleway-Regular.ttf in Resources */,
 				6F4AA8B427FBF2DF00BBB7D5 /* Montserrat-Bold.ttf in Resources */,
 				6F4AA8B527FBF2DF00BBB7D5 /* Raleway-Light.ttf in Resources */,
 				6FCB5F2427F562880081A96F /* Preview Assets.xcassets in Resources */,
 				6F8A547027FAD2D200674EB6 /* examplePosts.json in Resources */,
+				6FC2E30B2807F45A0051FE5F /* exampleCategories.json in Resources */,
 				6F74003F2806B8E50095D5C4 /* exampleHotels.json in Resources */,
 				6F29668F27FD604600F83980 /* exampleUsers.json in Resources */,
 				6FCB5F2127F562880081A96F /* Assets.xcassets in Resources */,
@@ -321,31 +383,41 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F2FBA71281115050000106A /* AssyncImageView.swift in Sources */,
 				6F8A547227FAD68600674EB6 /* PostListingViewModel.swift in Sources */,
 				6F4AA8AA27FBF2C000BBB7D5 /* Constants.swift in Sources */,
+				6FC2E3012807D7900051FE5F /* RoomForRent.swift in Sources */,
 				6FCB5F4327F594E10081A96F /* importJSON.swift in Sources */,
+				6FC2E2F92807CE490051FE5F /* RatingView.swift in Sources */,
 				6FCB5F1F27F562870081A96F /* ContentView.swift in Sources */,
 				6F740035280682B70095D5C4 /* RespondedUsersView.swift in Sources */,
 				6F4AA8A727FBF27C00BBB7D5 /* ListingPostsView.swift in Sources */,
 				6F7400412806BB510095D5C4 /* Hotel.swift in Sources */,
+				6FC2E30D280805820051FE5F /* ListingUsersRegistrationsView.swift in Sources */,
 				6FCB5F3227F57EF70081A96F /* Picture.swift in Sources */,
 				6F2966A027FD92C900F83980 /* PostImagesView.swift in Sources */,
 				6FCB5F1D27F562870081A96F /* Yabaikal_iOSApp.swift in Sources */,
 				6F74003D2806881A0095D5C4 /* SelectedUserView.swift in Sources */,
 				6F74003B280685D50095D5C4 /* AvatarCircleView.swift in Sources */,
+				6FC2E2F72807CAB50051FE5F /* HotelPreviewCardView.swift in Sources */,
 				6F29669527FD63FB00F83980 /* AvatarCircleFixSizeView.swift in Sources */,
 				6FCB5F2B27F57E100081A96F /* User.swift in Sources */,
 				6F29669127FD615E00F83980 /* AuthorizedUsersViewModel.swift in Sources */,
 				6FCB5F3027F57ECC0081A96F /* Post.swift in Sources */,
+				6FC2E3032807DFA00051FE5F /* RoomPreviewCardView.swift in Sources */,
+				6FF7186F28110DFB008E45CB /* GuidView.swift in Sources */,
 				6F4AA8BA27FBF46500BBB7D5 /* PostView.swift in Sources */,
 				6F8A95CC2805647300D2759A /* PostRegistrationsView.swift in Sources */,
 				6F29669E27FD926A00F83980 /* PostAutorAvatarView.swift in Sources */,
 				6F7400372806832B0095D5C4 /* ReorderableForEach.swift in Sources */,
 				6F8A95CE28056E7E00D2759A /* RegistrationRespondedUsers.swift in Sources */,
 				6FCB5F3527F57F490081A96F /* Category.swift in Sources */,
+				6FC2E3052807F0020051FE5F /* ServicesTabView.swift in Sources */,
+				6F2FBA73281117260000106A /* LocalImageView.swift in Sources */,
 				6F4AA8BE27FBFF5000BBB7D5 /* HeaderHomeView.swift in Sources */,
 				6F8A95CA280563D600D2759A /* Registration.swift in Sources */,
 				6F29669B27FD91F400F83980 /* PostLikersView.swift in Sources */,
+				6FC2E2FB2807D2850051FE5F /* Extenssions.swift in Sources */,
 				6F29669327FD635500F83980 /* CurrentUserView.swift in Sources */,
 				6F08AB8B27FC04E200199A6A /* FormAddNewPostView.swift in Sources */,
 				6F4AA8BC27FBF5A300BBB7D5 /* TabsView.swift in Sources */,
@@ -406,7 +478,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -461,7 +533,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -483,7 +555,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Yabaikal-iOS/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Я Байкал";
+				INFOPLIST_KEY_CFBundleDisplayName = "Байкал";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -514,7 +586,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Yabaikal-iOS/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Я Байкал";
+				INFOPLIST_KEY_CFBundleDisplayName = "Байкал";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

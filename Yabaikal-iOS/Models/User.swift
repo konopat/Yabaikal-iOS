@@ -13,6 +13,7 @@ struct User: Identifiable, Hashable, Codable {
     let name: String
     let family: String
     let avatars: [Picture]
+    var registrations: [Registration]?
 }
 
 struct UserListing: Decodable {

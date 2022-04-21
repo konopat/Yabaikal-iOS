@@ -8,9 +8,9 @@
 import Foundation
 
 struct Picture: Identifiable, Hashable, Codable {
-    let id: UUID
+    let id: UUID?
     let src: String
-    let title: String
+    let title: String?
 }
 
 

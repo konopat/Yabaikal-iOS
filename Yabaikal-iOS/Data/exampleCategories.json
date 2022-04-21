@@ -2,47 +2,58 @@
     "result": [
         {
             "id": "e9b3188b-83c9-482a-82e5-ba942636b29c",
-            "title": "Новости"
+            "title": "Новости",
+            "icon": "newspaper"
         },
         {
             "id": "73e30236-b4a0-11ec-b909-0242ac120002",
-            "title": "Жилье"
+            "title": "Жилье",
+            "icon": "bed.double"
         },
         {
             "id": "79191fa6-b4a0-11ec-b909-0242ac120002",
-            "title": "Транспорт"
+            "title": "Транспорт",
+            "icon": "car"
         },
         {
             "id": "7dec70d2-b4a0-11ec-b909-0242ac120002",
-            "title": "Еда"
+            "title": "Еда",
+            "icon": "dinner"
         },
         {
             "id": "827b7df0-b4a0-11ec-b909-0242ac120002",
-            "title": "Туры"
+            "title": "Туры",
+            "icon": "route"
         },
         {
             "id": "87d49160-b4a0-11ec-b909-0242ac120002",
-            "title": "Гиды"
+            "title": "Гиды",
+            "icon": "guid"
         },
         {
             "id": "8bb937d6-b4a0-11ec-b909-0242ac120002",
-            "title": "Переводчики"
+            "title": "Переводчики",
+            "icon": "translate"
         },
         {
             "id": "90593a8e-b4a0-11ec-b909-0242ac120002",
-            "title": "Волонтеры"
+            "title": "Волонтеры",
+            "icon": "nature-people"
         },
         {
             "id": "95d3d2e4-b4a0-11ec-b909-0242ac120002",
-            "title": "Мероприятия"
+            "title": "Мероприятия",
+            "icon": "calendar"
         },
         {
             "id": "9a03c31a-b4a0-11ec-b909-0242ac120002",
-            "title": "Сувениры"
+            "title": "Сувениры",
+            "icon": "matryoshka"
         },
         {
             "id": "9d87e20a-b4a0-11ec-b909-0242ac120002",
-            "title": "Работа"
+            "title": "Работа",
+            "icon": "hammer"
         }
     ]
 }

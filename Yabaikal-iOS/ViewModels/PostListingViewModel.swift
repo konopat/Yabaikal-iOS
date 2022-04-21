@@ -30,6 +30,14 @@ class PostListingViewModel: ObservableObject {
         }
     }
     
+    func postFilterByCategory(title: String) -> [Post] {
+        if let choosenCategoryIndex = categories.firstIndex(where: ({$0.title == title})) {
+            return posts.filter({ $0.category == categories[choosenCategoryIndex] })
+        } else {
+            return posts
+        }        
+    }
+    
     func change(the category: Category) {
         currentCategory = category
     }

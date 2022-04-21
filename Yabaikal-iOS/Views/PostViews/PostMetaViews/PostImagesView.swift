@@ -25,11 +25,15 @@ struct PostImagesView: View {
                                         .resizable()
                                         .aspectRatio(contentMode: .fill)
                                 case .failure:
-                                    Text("Не удалось загрузить картинку.")
-                                        .foregroundColor(.red)
+                                    Image(K.Default.errorImage)
+                                        .resizable()
+                                        .aspectRatio(contentMode: .fill)
+                                        .clipShape(Circle())
                                 @unknown default:
-                                    Text("Ошибка.")
-                                        .foregroundColor(.red)
+                                    Image(K.Default.errorImage)
+                                        .resizable()
+                                        .aspectRatio(contentMode: .fill)
+                                        .clipShape(Circle())
                                 }
                             }
                             .frame(height: 240)
