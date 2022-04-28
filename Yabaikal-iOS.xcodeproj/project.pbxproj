@@ -34,6 +34,9 @@
 		6F74003D2806881A0095D5C4 /* SelectedUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F74003C2806881A0095D5C4 /* SelectedUserView.swift */; };
 		6F74003F2806B8E50095D5C4 /* exampleHotels.json in Resources */ = {isa = PBXBuildFile; fileRef = 6F74003E2806B8E50095D5C4 /* exampleHotels.json */; };
 		6F7400412806BB510095D5C4 /* Hotel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F7400402806BB510095D5C4 /* Hotel.swift */; };
+		6F84FD37281A2C2C001B6BF4 /* BookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F84FD36281A2C2C001B6BF4 /* BookingView.swift */; };
+		6F84FD44281A4F74001B6BF4 /* SingleRegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F84FD43281A4F74001B6BF4 /* SingleRegistrationView.swift */; };
+		6F84FD47281A56E9001B6BF4 /* BabrScuplptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F84FD46281A56E9001B6BF4 /* BabrScuplptureView.swift */; };
 		6F8A547027FAD2D200674EB6 /* examplePosts.json in Resources */ = {isa = PBXBuildFile; fileRef = 6F8A546F27FAD2D200674EB6 /* examplePosts.json */; };
 		6F8A547227FAD68600674EB6 /* PostListingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8A547127FAD68600674EB6 /* PostListingViewModel.swift */; };
 		6F8A95CA280563D600D2759A /* Registration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8A95C9280563D600D2759A /* Registration.swift */; };
@@ -88,6 +91,9 @@
 		6F74003C2806881A0095D5C4 /* SelectedUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedUserView.swift; sourceTree = "<group>"; };
 		6F74003E2806B8E50095D5C4 /* exampleHotels.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = exampleHotels.json; sourceTree = "<group>"; };
 		6F7400402806BB510095D5C4 /* Hotel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hotel.swift; sourceTree = "<group>"; };
+		6F84FD36281A2C2C001B6BF4 /* BookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingView.swift; sourceTree = "<group>"; };
+		6F84FD43281A4F74001B6BF4 /* SingleRegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleRegistrationView.swift; sourceTree = "<group>"; };
+		6F84FD46281A56E9001B6BF4 /* BabrScuplptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabrScuplptureView.swift; sourceTree = "<group>"; };
 		6F8A546F27FAD2D200674EB6 /* examplePosts.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = examplePosts.json; sourceTree = "<group>"; };
 		6F8A547127FAD68600674EB6 /* PostListingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListingViewModel.swift; sourceTree = "<group>"; };
 		6F8A95C9280563D600D2759A /* Registration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Registration.swift; sourceTree = "<group>"; };
@@ -205,6 +211,15 @@
 			path = PostRegistrations;
 			sourceTree = "<group>";
 		};
+		6F84FD45281A56D3001B6BF4 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				6F84FD36281A2C2C001B6BF4 /* BookingView.swift */,
+				6F84FD46281A56E9001B6BF4 /* BabrScuplptureView.swift */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
 		6FC2E2FC2807D5B10051FE5F /* Booking */ = {
 			isa = PBXGroup;
 			children = (
@@ -239,6 +254,7 @@
 			children = (
 				6F4AA8A627FBF27C00BBB7D5 /* ListingPostsView.swift */,
 				6FC2E30C280805820051FE5F /* ListingUsersRegistrationsView.swift */,
+				6F84FD43281A4F74001B6BF4 /* SingleRegistrationView.swift */,
 				6F08AB8A27FC04E200199A6A /* FormAddNewPostView.swift */,
 				6F4AA8B927FBF46500BBB7D5 /* PostView.swift */,
 				6F29669C27FD922000F83980 /* PostMetaViews */,
@@ -269,6 +285,7 @@
 				6FCB5F1C27F562870081A96F /* Yabaikal_iOSApp.swift */,
 				6FCB5F1E27F562870081A96F /* ContentView.swift */,
 				6F4AA8A927FBF2C000BBB7D5 /* Constants.swift */,
+				6F84FD45281A56D3001B6BF4 /* Demo */,
 				6F4AA8A827FBF28100BBB7D5 /* Views */,
 				6F3DBBCF27F6C0E3000A0DDE /* ViewModels */,
 				6FCB5F2C27F57E640081A96F /* Models */,
@@ -384,6 +401,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F2FBA71281115050000106A /* AssyncImageView.swift in Sources */,
+				6F84FD47281A56E9001B6BF4 /* BabrScuplptureView.swift in Sources */,
 				6F8A547227FAD68600674EB6 /* PostListingViewModel.swift in Sources */,
 				6F4AA8AA27FBF2C000BBB7D5 /* Constants.swift in Sources */,
 				6FC2E3012807D7900051FE5F /* RoomForRent.swift in Sources */,
@@ -401,6 +419,7 @@
 				6F74003B280685D50095D5C4 /* AvatarCircleView.swift in Sources */,
 				6FC2E2F72807CAB50051FE5F /* HotelPreviewCardView.swift in Sources */,
 				6F29669527FD63FB00F83980 /* AvatarCircleFixSizeView.swift in Sources */,
+				6F84FD37281A2C2C001B6BF4 /* BookingView.swift in Sources */,
 				6FCB5F2B27F57E100081A96F /* User.swift in Sources */,
 				6F29669127FD615E00F83980 /* AuthorizedUsersViewModel.swift in Sources */,
 				6FCB5F3027F57ECC0081A96F /* Post.swift in Sources */,
@@ -421,6 +440,7 @@
 				6F29669327FD635500F83980 /* CurrentUserView.swift in Sources */,
 				6F08AB8B27FC04E200199A6A /* FormAddNewPostView.swift in Sources */,
 				6F4AA8BC27FBF5A300BBB7D5 /* TabsView.swift in Sources */,
+				6F84FD44281A4F74001B6BF4 /* SingleRegistrationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

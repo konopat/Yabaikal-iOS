@@ -13,6 +13,7 @@ struct GuidView: View {
     
     @State var searchFildValue: String = ""
     var body: some View {
+        NavigationView {
         ScrollView {
             VStack {
                 ZStack {
@@ -29,6 +30,9 @@ struct GuidView: View {
                         Text("Вы в Иркутске")
                             .font(.largeTitle)
                         Spacer()
+                        
+
+
                     }
                     
                     Button {
@@ -61,10 +65,22 @@ struct GuidView: View {
                             ScrollView(.horizontal, showsIndicators: false){
                                 HStack(alignment: .top, spacing: 20) {
                                     
+                                    NavigationLink {
+                                        BabrScuplptureView()
+                                    } label: {
+                                        VStack(spacing: 20) {
+                                            LocalImageView(fileName: "babr", height: 250)
+                                                
+                                            Text("Скульптура Бабра (Изображен на гербе области)")
+                                        }
+                                    }
+                                    
                                     VStack(spacing: 20) {
                                         LocalImageView(fileName: "sloboda", height: 250)
                                         Text("130-й квартал (Иркутская слобода)")
                                     }
+                                    
+                                    
                                     
                                     VStack(spacing: 20) {
                                         LocalImageView(fileName: "volkonskogo", height: 250)
@@ -72,11 +88,8 @@ struct GuidView: View {
                                         Text("Дом-музей Волконского")
                                     }
                                     
-                                    VStack(spacing: 20) {
-                                        LocalImageView(fileName: "babr", height: 250)
-                                            
-                                        Text("Скульптура Бабра (Изображен на гербе области)")
-                                    }
+                                    
+
                             
                                     
                                 }
@@ -165,6 +178,10 @@ struct GuidView: View {
                 
             }.padding()
         }
+        .navigationTitle("Гид")
+        .navigationViewStyle(.stack)
+    }
+        
     }
 }
 

@@ -9,6 +9,8 @@ import SwiftUI
 
 struct RoomPreviewCardView: View {
     
+    @State private var showBookingForm = false
+    
     let post: Post
     
     var body: some View {
@@ -75,7 +77,7 @@ struct RoomPreviewCardView: View {
                                     }
                                     
                                     Button {
-                                        //
+                                        showBookingView()
                                     } label: {
                                         Text("Забронировать")
                                             .padding()
@@ -83,6 +85,9 @@ struct RoomPreviewCardView: View {
                                     }
                                     .border(Color(K.Color.accent), width: 1, cornerRadius: 10)
                                     .padding(.top)
+                                    .sheet(isPresented: $showBookingForm) {
+                                        BookingView(post: post)
+                                    }
                                 }
                                 
                             }
@@ -98,5 +103,9 @@ struct RoomPreviewCardView: View {
             
             
         } // if let hotel = post.hotel
+    }
+    
+    private func showBookingView() {
+        showBookingForm.toggle()
     }
 }

@@ -15,7 +15,48 @@
       "registrations": [
         {
           "id": "0a0de216-ba33-11ec-8422-0242ac120002",
-          "typeOfHelp": "Убирать мусор с берегов Байкала в районе Малого моря"
+          "typeOfHelp": "Убирать мусор с берегов Байкала в районе Малого моря",
+          "respondedUsers": [
+              {
+                  "id": "80c553ec-b4b8-11ec-b909-0242ac120002",
+                  "email": "roman@predein.com",
+                  "name": "Роман",
+                  "family": "Предеин",
+                  "avatars": [
+                    {
+                      "id": "89b4dd4c-b4b8-11ec-b909-0242ac120002",
+                      "src": "https://sun9-43.userapi.com/impf/c626817/v626817926/1e95e/bhEHwJ8_z5Y.jpg?size=596x604&quality=96&sign=15410cfdfac007bb0f4fee6ae143ffa0&c_uniq_tag=wH6dD_-9ONOsIDnS07XwMOMGGy5HCFoxSeAA2BLiG2Q&type=album",
+                      "title": "Роман Предеин - аватарка"
+                    }
+                  ]
+              },
+              {
+                "id": "e5ecba9a-b0c0-11ec-b909-0242ac120002",
+                "email": "user1@predein.com",
+                "name": "Иван",
+                "family": "Рудых",
+                "avatars": [
+                  {
+                    "id": "0ea7dfc8-b0c6-11ec-b909-0242ac120002",
+                    "src": "http://yabaikal.ru/wp-content/uploads/2022/03/o.47034-150x150.jpg",
+                    "title": "Иван Рудых - аватарка"
+                  }
+                ]
+              },
+              {
+                "id": "b95fc458-bafd-11ec-8422-0242ac120002",
+                "email": "user4@predein.com",
+                "name": "Кира",
+                "family": "Сумбурная",
+                "avatars": [
+                  {
+                    "id": "c6d2531c-bafd-11ec-8422-0242ac120002",
+                    "src": "https://i.pinimg.com/736x/8e/bf/ae/8ebfae461e2b561e2f6127285c873c01.jpg",
+                    "title": "Кира Сумбурная - аватарка"
+                  }
+                ]
+              }              
+          ]
           
         },
         {
